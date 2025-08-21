@@ -1,5 +1,4 @@
 {{ 'section-main-page.css' | asset_url | stylesheet_tag }}
-{{ 'lander_css.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -16,48 +15,17 @@
 {%- endstyle -%}
 
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
+  <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    {{ page.title | escape }}
+  </h1>
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
-    <div class="box-wrapper" style="
-">
-		<div class="box-container" style="width: 1728px; margin-left: 0px;">
-		<script type="text/javascript" id="initBox">UNCODE.initBox();</script>
-					<script type="text/javascript" id="fixMenuHeight">UNCODE.fixMenuHeight();</script>
-						<div class="main-wrapper">
-				<div class="main-container">
-					<div class="page-wrapper" role="main">
-						<div class="sections-container" id="sections-container">
-<div id="page-header" data-imgready="true"><div class="header-wrapper header-uncode-block">
-									<div data-parent="true" class="vc_row row-container with-parallax boomapps_vcrow" id="row-unique-0" data-section="0"><div class="row-background background-element">
-											<div class="background-wrapper" style="transform: translate3d(0px, 76px, 0px);">
-												<div class="background-inner" style="background-image: url(https://vmgroupe.com/wp-content/uploads/2024/09/Enscape_2024-08-23-00-27-41.png);background-repeat: no-repeat;background-position: center center;background-size: cover;"></div>
-												<div class="block-bg-overlay style-color-jevc-bg" style="opacity: 0.45;"></div>
-											</div>
-										</div><div class="row limit-width row-parent row-header" data-height-ratio="75" data-row-header="true" data-imgready="true"><div class="wpb_row row-inner" style="height: 372px;"><div class="wpb_column pos-middle pos-center align_center column_parent col-lg-12 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light"><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="vc_row row-internal row-container boomapps_vcrow"><div class="row row-child"><div class="wpb_row row-inner" style="height: 372px;"><div class="wpb_column pos-middle pos-center align_center column_child col-lg-12 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light"><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="uncode-single-media  text-center"><div class="single-wrapper" style="max-width: 25%;"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img fetchpriority="high" decoding="async" class="wp-image-133186" src="https://vmgroupe.com/wp-content/uploads/2024/09/Lattafa_Icon_Lockup_white.png" width="1000" height="1320" alt="" srcset="https://i0.wp.com/vmgroupe.com/wp-content/uploads/2024/09/Lattafa_Icon_Lockup_white.png?w=1000&amp;ssl=1 1000w, https://i0.wp.com/vmgroupe.com/wp-content/uploads/2024/09/Lattafa_Icon_Lockup_white.png?resize=636%2C840&amp;ssl=1 636w, https://i0.wp.com/vmgroupe.com/wp-content/uploads/2024/09/Lattafa_Icon_Lockup_white.png?resize=909%2C1200&amp;ssl=1 909w, https://i0.wp.com/vmgroupe.com/wp-content/uploads/2024/09/Lattafa_Icon_Lockup_white.png?resize=768%2C1014&amp;ssl=1 768w, https://i0.wp.com/vmgroupe.com/wp-content/uploads/2024/09/Lattafa_Icon_Lockup_white.png?resize=350%2C462&amp;ssl=1 350w" sizes="(max-width: 1000px) 100vw, 1000px"></div>
-					</div>
-				</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><script id="script-row-unique-0" data-row="script-row-unique-0" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-0"));</script></div></div></div></div></div><script type="text/javascript">UNCODE.initHeader();</script><article id="post-133179" class="page-body style-light-bg post-133179 page type-page status-publish hentry">
-						<div class="post-wrapper">
-							<div class="post-body"><div class="post-content un-no-sidebar-layout"><div data-parent="true" class="vc_row style-color-852564-bg row-container boomapps_vcrow" id="row-unique-1" data-section="1"><div class="row single-top-padding quad-bottom-padding single-h-padding limit-width row-parent" data-imgready="true"><div class="wpb_row row-inner"><div class="wpb_column pos-top pos-center align_left column_parent col-lg-12 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light"><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="vc_row row-internal row-container boomapps_vcrow"><div class="row row-child"><div class="wpb_row row-inner" style="height: 138px;"><div class="wpb_column pos-top pos-center align_center column_child col-lg-12 boomapps_vccolumn half-internal-gutter"><div class="uncol style-light animate_when_almost_visible alpha-anim start_animation"><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="vc_custom_heading_wrap "><div class="heading-text el-text"><h4 class="h5 fontspace-192946 font-weight-400 text-uppercase"><span>Explore The</span></h4></div><div class="clear"></div></div><div class="vc_custom_heading_wrap "><div class="heading-text el-text"><h2 class="h2 font-weight-400 text-uppercase"><span>Lattafa World</span></h2><div><p>View and download our catalogues</p>
-</div></div><div class="clear"></div></div></div></div></div></div></div></div></div></div><div class="vc_row row-internal row-container boomapps_vcrow"><div class="row row-child"><div class="wpb_row row-inner" style="height: 496px;"><div class="wpb_column pos-top pos-center align_center column_child col-lg-4 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light animate_when_almost_visible alpha-anim start_animation"><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><a class="single-media-link cursor-init" href="https://vmgroupe.com/wp-content/uploads/2024/09/Lattafa-Catalogue-2023.pdf" target="_blank"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-133214" src="https://vmgroupe.com/wp-content/uploads/2024/09/Artboard-%E2%80%93-5.png" width="1250" height="1250" alt=""></div>
-					</div>
-				</div></div></div></a></div></div><div class="vc_custom_heading_wrap "><div class="heading-text el-text"><h3 class="h4"><span>Lattafa</span></h3></div><div class="clear"></div></div><span class="btn-container btn-block"><a role="button" href="https://vmgroupe.com/wp-content/uploads/2024/09/Lattafa-Catalogue-2023.pdf" class="custom-link btn border-width-0 btn-default btn-circle btn-block btn-icon-left cursor-init" target="_blank">Download</a></span></div></div></div></div></div><div class="wpb_column pos-top pos-center align_center column_child col-lg-4 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light animate_when_almost_visible alpha-anim start_animation" data-delay="200"><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><a class="single-media-link cursor-init" href="https://vmgroupe.com/wp-content/uploads/2024/09/Lattafa-Pride-Catalogue-2024-Compressed.pdf" target="_blank" title="Lattafa Perfumes Le Jardin TFWA Cannes"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-133213" src="https://vmgroupe.com/wp-content/uploads/2024/09/Artboard-%E2%80%93-6.png" width="1250" height="1250" alt=""></div>
-					</div>
-				</div></div></div></a></div></div><div class="vc_custom_heading_wrap "><div class="heading-text el-text"><h3 class="h4"><span>Lattafa Pride</span></h3></div><div class="clear"></div></div><span class="btn-container btn-block"><a role="button" href="https://vmgroupe.com/wp-content/uploads/2024/09/Lattafa-Pride-Catalogue-2024-Compressed.pdf" class="custom-link btn border-width-0 btn-default btn-circle btn-block btn-icon-left" target="_blank">Download</a></span></div></div></div></div></div><div class="wpb_column pos-top pos-center align_center column_child col-lg-4 boomapps_vccolumn single-internal-gutter"><div class="uncol style-light animate_when_almost_visible alpha-anim start_animation" data-delay="400"><div class="uncoltable"><div class="uncell  boomapps_vccolumn no-block-padding"><div class="uncont"><div class="uncode-single-media  text-left"><div class="single-wrapper" style="max-width: 100%;"><a class="single-media-link cursor-init" href="https://vmgroupe.com/wp-content/uploads/2024/09/Niche-Emarati-Catalogue-2024.pdf" target="_blank"><div class="tmb tmb-light  tmb-media-first tmb-media-last tmb-content-overlay tmb-no-bg"><div class="t-inside"><div class="t-entry-visual"><div class="t-entry-visual-tc"><div class="uncode-single-media-wrapper"><img decoding="async" class="wp-image-133215" src="https://vmgroupe.com/wp-content/uploads/2024/09/Artboard-%E2%80%93-4.png" width="1250" height="1250" alt=""></div>
-					</div>
-				</div></div></div></a></div></div><div class="vc_custom_heading_wrap "><div class="heading-text el-text"><h3 class="h4"><span>Niche Emarati</span></h3></div><div class="clear"></div></div><span class="btn-container btn-block"><a role="button" href="https://vmgroupe.com/wp-content/uploads/2024/09/Niche-Emarati-Catalogue-2024.pdf" class="custom-link btn border-width-0 btn-default btn-circle btn-block btn-icon-left" target="_blank">Download</a></span></div></div></div></div></div></div></div></div></div></div></div></div></div><script id="script-row-unique-1" data-row="script-row-unique-1" type="text/javascript" class="vc_controls">UNCODE.initRow(document.getElementById("row-unique-1"));</script></div></div></div></div></div>
-						</div>
-					</article>
-								</div><!-- sections container -->
-							</div><!-- page wrapper -->
-																	</div><!-- main container -->
-				</div><!-- main wrapper -->
-							</div><!-- box container -->
-					</div>
+    {{ page.content }}
   </div>
 </div>
 
 {% schema %}
 {
-  "name": "Page Lander",
+  "name": "Main Page Lander",
   "tag": "section",
   "class": "section",
   "settings": [
